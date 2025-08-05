@@ -13,7 +13,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/keta1930/open-mcp-servers.git
    cd github-trending-mcp
    ```
 

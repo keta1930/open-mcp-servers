@@ -13,7 +13,7 @@ A specialized MCP server for analyzing trending projects on GitHub. This server 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/keta1930/open-mcp-servers.git
    cd github-trending-mcp
    ```
 
