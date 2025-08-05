@@ -2,47 +2,12 @@
 
 一个专门用于分析GitHub上热门项目的MCP服务器。此服务器帮助AI助手发现、分析和理解GitHub上的热门项目及其实现。
 
-## 功能特性
+## (1)功能特性
 
-- 🌟 获取GitHub热门项目列表（支持日/周/月时间范围）
-- 🔍 支持按编程语言过滤项目
+- 🌟 获取GitHub热门项目列表（支持时间范围/编程语言过滤项目）
 - 📚 获取指定仓库的README文档内容
-- 📊 提取项目详细信息（星数、Fork数、编程语言等）
 
-## 安装步骤
-
-1. **克隆项目**
-   ```bash
-   git clone https://github.com/keta1930/open-mcp-servers.git
-   cd github-trending-mcp
-   ```
-
-2. **安装依赖**
-   ```bash
-   # 使用uv安装依赖
-   uv sync
-   
-   # 或安装所需包
-   uv add requests beautifulsoup4 fastmcp
-   ```
-
-## MCP配置
-
-**配置示例：**
-```json
-{
-  "mcpServers": {
-    "github_trending": {
-      "command": "/path/to/your/project/.venv/Scripts/python.exe",
-      "args": [
-        "/path/to/your/project/main_zh.py"
-      ]
-    }
-  }
-}
-```
-
-## 工具说明
+## (2)工具说明
 
 ### get_github_trending(since, language)
 获取GitHub热门项目列表
@@ -56,13 +21,10 @@
 
 **使用示例：**
 ```
-# 获取今日所有语言的热门项目
 请获取今日GitHub热门项目
 
-# 获取本周Python项目
 请获取本周GitHub热门的Python项目
 
-# 获取本月JavaScript项目
 请获取本月GitHub热门的JavaScript项目
 ```
 
@@ -88,3 +50,37 @@
 - 完整的README文档内容
 - 内容超过50KB时自动截断
 - 支持多种README文件格式（.md, .txt等）
+
+## (3)安装步骤
+
+1. **克隆项目**
+   ```bash
+   git clone https://github.com/keta1930/open-mcp-servers.git
+   cd github-trending-mcp
+   ```
+
+2. **安装依赖**
+   ```bash
+   # 使用uv安装依赖
+   uv sync
+   
+   # 或安装所需包
+   uv add requests beautifulsoup4 fastmcp
+   ```
+
+## (4)MCP配置
+
+**配置示例：**
+```json
+{
+  "mcpServers": {
+    "github_trending": {
+      "command": "/path/to/your/project/.venv/Scripts/python.exe",
+      "args": [
+        "/path/to/your/project/main_zh.py"
+      ]
+    }
+  }
+}
+```
+
