@@ -1,0 +1,11 @@
+[project]
+name = "fetch-github-trending"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fastmcp>=2.10.5",
+    "requests>=2.32.4",
+]
