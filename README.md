@@ -1,6 +1,6 @@
 # Open MCP Servers
 
-*[中文版本](./README_zh.md) | English*
+*[中文版本](./README_ZH.md) | English*
 
 > 🛠️ **My MCP Server Open Source Project**.  
 > This project collects the various MCP tools I develop and use daily, hoping to share them with the community through open source.
